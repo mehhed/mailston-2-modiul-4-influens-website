@@ -1,0 +1,27 @@
+/* for small deveices  */
+@media screen and (max-width:576px) {
+    /* header responsive css  */
+    header {
+        padding: 80px 25px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .shop-chart{
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation-title h1{
+        font-size: 1.50rem;
+    }
+    /* banner responsive  */
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .banner-heading {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
